@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Chivo:wght@300&family=Merriweather+Sans:wght@500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9e8e857;
+    height: 50px;
+    background-image: url(/Contact-Us/Contact.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+header {
+    color: #fff;
+    text-align: left;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 50px;
+    height: 10px;
+    color: rgb(251, 251, 251);
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 39px;
+    text-shadow: 0 0 2px;
+    padding: 2px 2px;
+}
+
+header p {
+    margin: 50px;
+    height: 0;
+    padding: 2px 2px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1px;
+}
+
+.container {
+    max-width: 970px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-details,
+.contact-form {
+    flex-basis: 43%;
+    padding: 1rem;
+    background-color: #f3ebebeb;
+    border-radius: 4px;
+    margin-bottom: 2rem;
+    height: 405px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    box-shadow: 0 0 6px -2px #544c4c;
+}
+
+.contact-details h2,
+.contact-form h2 {
+    margin-top: -12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: #4d4242;
+    padding: 7px 3px;
+}
+
+.contact-details p {
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Chivo', sans-serif;
+    letter-spacing: 0px;
+    padding: 0px 4px;
+}
+
+.contact-details #quote {
+    text-align: center;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 18px;
+    padding: 12px 14px;
+    color: #5c5757;
+}
+
+.info {
+    display: block;
+    width: 96%;
+    margin: 6px 0px;
+    height: 9px;
+    outline: none;
+    padding: 15px 8px;
+    font-family: 'Chivo', sans-serif;
+    color: #6f4a4a;
+    font-size: 17px;
+}
+
+label {
+    font-weight: bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 18px;
+    color: #5c5757;
+    padding: 0px 2px;
+}
+
+input,
+textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    resize: none;
+}
+
+.sub {
+    background-color: #333;
+    color: #e8e5e5;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    margin: 16px auto;
+    padding: 10px 22px;
+    font-size: 18px;
+    font-family: 'Chivo', sans-serif;
+}
+
+.sub:hover {
+    background-color: #555;
+
+}
+
+.icon-link {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.icon-link img {
+    width: 40px;
+    height: 40px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.contact-details {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: rgb(77, 75, 75);
+    font-size: 14px;
+    color: rgb(232, 193, 193);
+    font-family: 'Roboto', sans-serif;
+}
