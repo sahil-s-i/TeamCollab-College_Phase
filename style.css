@@ -307,11 +307,6 @@ nav .fa {
 
 /* TESTIMONIAL */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 #testimonial {
     padding-top: 100px;
@@ -437,11 +432,26 @@ nav .fa {
 
 footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 40px;
     background-color: rgb(77, 75, 75);
     font-size: 14px;
     color: rgb(232, 193, 193);
     font-family: 'Roboto', sans-serif;
+}
+
+.footer-iconTop a {
+    background-color: rgb(77, 75, 75);
+    padding: .3rem .6rem;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: .1rem;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.footer-iconTop a:hover{
+    background: #7d8484e0;
+    transition: 0.5s;
 }
