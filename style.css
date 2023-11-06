@@ -224,7 +224,7 @@ nav .fa {
     border-radius: 6px;
     background-color: #e6dcdc80;
     margin: 12px auto;
-    padding: 8px 21px;
+    padding: 8px 0px;
     box-shadow: 0 0 4px #c6bbbb;
     width: 130px;
     text-align: center;
@@ -407,7 +407,7 @@ nav .fa {
 /* CONTACT INFO */
 
 .cta {
-    margin: 100px 0px 20px 0px;
+    margin: 100px 0px 0px 0px;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(./logo-bg-images/Campus\ 1.jpg);
     background-position: center;
