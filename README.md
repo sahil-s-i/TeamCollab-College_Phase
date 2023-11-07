@@ -14,15 +14,14 @@ Welcome to our collaborative college website project! We are a team of 6 passion
 
 ## Table of Contents
 
-- [Team Collaboration College Project](#team-collaboration-college-project)
-    - [  Visit site :arrow\_upper\_right: :   Click ME !!!](#-visit-site-arrow_upper_right---click-me-)
-  - [Table of Contents](#table-of-contents)
   - [Meet the Team](#meet-the-team)
   - [About the Project](#about-the-project)
   - [Key Features](#key-features)
   - [Project Roadmap](#project-roadmap)
   - [How to Contribute](#how-to-contribute)
   - [Get in Touch](#get-in-touch)
+
+
 
 ## Meet the Team
 
