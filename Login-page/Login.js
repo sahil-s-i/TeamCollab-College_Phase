@@ -26,11 +26,11 @@ function register() {
     if (userType.value === 'student') {
         // Redirect to student.html
         console.log('Welcome, Student! Redirecting to student Registeration page.');
-        window.location.href = '/SUSHMITA/Reg.html';
+        window.location.href = '#';
     } else if (userType.value === 'faculty') {
         // Redirect to faculty.html
         console.log('Welcome, Faculty! Redirecting to faculty Registeration page.');
-        window.location.href = '/SAHIL/faculty/index.html';
+        window.location.href = '#';
     }
 }
 
