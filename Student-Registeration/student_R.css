@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&family=Chivo:wght@300&family=Merriweather+Sans:wght@500&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    /* background-color:  #c4cdd7; */
+    background: #f9e8e857;
+}
+
+.container {
+    /* background: transparent;
+  border: 2px solid rgba(255, 255, 255, .5);
+  border-radius: 20px; */
+    backdrop-filter: blur(10px);
+    /* background: transparent;
+  backdrop-filter: blur(5px);
+  position: relative; */
+    max-width: 660px;
+    width: 100%;
+    background: #d1c0c01a;
+    padding: 25px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); */
+    box-shadow: 0 0 6px -2px #544c4c;
+}
+
+.container header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    font-size: 34px;
+    color: #4d4242;
+}
+
+.container .form {
+    margin-top: 30px;
+}
+
+.form .input-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-head {
+    font-weight: bold;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    font-size: 22px;
+    color: #716e6e;
+    ;
+    padding: 0px 2px;
+}
+
+.form :where(.input-box input, .select-box) {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 1.2rem;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 0 15px;
+    color: #6f4a4a;
+}
+
+.input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form .column {
+    display: flex;
+    column-gap: 10px;
+}
+
+.form .gender-box {
+    margin-top: 15px;
+}
+
+.gender-box p {
+    padding: 9px 2px;
+}
+
+.form :where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.form .gender {
+    column-gap: 5px;
+    padding: 0px 14px;
+}
+
+.gender input {
+    accent-color: #4d4242;
+}
+
+.form :where(.gender input, .gender label) {
+    cursor: pointer;
+}
+
+.gender label {
+    color: #7b5c5cb2;
+    font-size: 1.2rem;
+    font-family: 'Chivo', sans-serif;
+}
+
+.address :where(input, .select-box) {
+    margin-top: 15px;
+}
+
+.select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #7b5c5cb2;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+.select-box option {
+    color: #4d4242;
+}
+
+.form button {
+    height: 55px;
+    width: 100%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s;
+    border-radius: 6px;
+    background-color: #a09a9a;
+    font-family: 'Chivo', sans-serif;
+}
+
+.form button:hover {
+    background-color: #555;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
+}
+
+/*Responsive*/
+@media screen and (max-width: 500px) {
+    .form .column {
+        flex-wrap: wrap;
+    }
+
+    .form :where(.gender-option, .gender) {
+        row-gap: 15px;
+    }
+}
