@@ -26,7 +26,7 @@ function register() {
     if (userType.value === 'student') {
         // Redirect to student.html
         console.log('Welcome, Student! Redirecting to student Registeration page.');
-        window.location.href = '#';
+        window.location.href = '../Student-Registeration/student_R.html';
     } else if (userType.value === 'faculty') {
         // Redirect to faculty.html
         console.log('Welcome, Faculty! Redirecting to faculty Registeration page.');
