@@ -30,7 +30,7 @@ function register() {
     } else if (userType.value === 'faculty') {
         // Redirect to faculty.html
         console.log('Welcome, Faculty! Redirecting to faculty Registeration page.');
-        window.location.href = '#';
+        window.location.href = '../Faculty-Registeration/faculty_R.html';
     }
 }
 
